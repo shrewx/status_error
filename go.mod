@@ -1,4 +1,4 @@
-module github.com/shrewx/status_error
+module github.com/shrewx/statuserror
 
 go 1.16
 

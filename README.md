@@ -1,0 +1,1 @@
+fork from [statuserror](https://github.com/go-courier/statuserror) and support i18n

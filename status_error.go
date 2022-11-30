@@ -47,6 +47,8 @@ func (v *StatusErr) I18n(language string) CommonError {
 		v.Message = v.ZHMessage
 	case "en":
 		v.Message = v.ENMessage
+	default:
+		v.Message = v.ZHMessage
 	}
 
 	return v
